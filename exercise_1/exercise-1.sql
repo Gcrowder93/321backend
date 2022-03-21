@@ -2,10 +2,12 @@
 -- use INNER JOIN FROM address on to city
 
 -- SELECT
---     address.city_id
---     FROM
+-- *    
+-- FROM
 --     address
 --     INNER JOIN
 --     city
 --     ON
---     city = address_id;
+--     city.city = address.address_id
+--     WHERE
+--     city_id = Dundee
